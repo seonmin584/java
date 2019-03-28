@@ -5,7 +5,7 @@ public class Song {
 	private String country;
 	
 	public Song() { }
-	public Song(String tilte,String artitst, int year,String country) {
+	public Song(String title,String artist, int year,String country) {
 		this.title = title;
 		this.artist = artist;
 		this.year = year;
