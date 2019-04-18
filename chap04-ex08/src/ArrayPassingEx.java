@@ -15,7 +15,6 @@ public class ArrayPassingEx {
 		printCharArray(c); // 원래 배열 원소 출력
 		replaceSpace(c); // 공백 문자 바꾸기
 		printCharArray(c); // 수정된배열 원소 출력
-		// TODO Auto-generated method stub
 
 	}
 
