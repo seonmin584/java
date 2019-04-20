@@ -13,8 +13,9 @@ public class Notepad extends JFrame {
 		JMenu FormMenu = new JMenu("서식(O)");
 		JMenu ViewMenu = new JMenu("보기(V)");
 		JMenu HelpMenu = new JMenu("도움말H)");
+		mb.setBackground(Color.YELLOW);
 		
-		c.setBackground(Color.WHITE);
+		c.setBackground(Color.RED);
 		c.add(new JTextArea());
 
 		mb.add(FileMenu);
@@ -28,7 +29,6 @@ public class Notepad extends JFrame {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		new Notepad();
 	}
 
